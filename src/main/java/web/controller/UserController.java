@@ -17,7 +17,6 @@ public class UserController {
 		List<String> messages = new ArrayList<>();
 		messages.add("Hello!");
 		messages.add("I'm Spring MVC-SECURITY application");
-		messages.add("5.2.0 version by sep'19 ");
 		model.addAttribute("messages", messages);
 		return "hello";
 	}
@@ -26,5 +25,4 @@ public class UserController {
     public String loginPage() {
         return "login";
     }
-
 }
