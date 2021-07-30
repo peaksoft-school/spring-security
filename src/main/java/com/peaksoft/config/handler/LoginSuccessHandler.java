@@ -1,4 +1,4 @@
-package web.config.handler;
+package com.peaksoft.config.handler;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;

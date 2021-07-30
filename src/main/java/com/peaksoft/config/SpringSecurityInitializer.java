@@ -1,4 +1,4 @@
-package web.config;
+package com.peaksoft.config;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 
